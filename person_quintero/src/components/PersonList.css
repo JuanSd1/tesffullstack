@@ -1,0 +1,97 @@
+.list-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.list-header h1 {
+  font-size: 1.8rem;
+  color: #1a1a2e;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.table thead {
+  background-color: #1a1a2e;
+  color: #fff;
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f4ff;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-primary {
+  background-color: #4361ee;
+  color: #fff;
+}
+
+.btn-edit {
+  background-color: #f4a261;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.feedback {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.feedback.error {
+  color: #e63946;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+  font-size: 1rem;
+}
